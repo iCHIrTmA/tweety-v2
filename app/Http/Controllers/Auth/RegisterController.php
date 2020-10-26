@@ -69,7 +69,7 @@ class RegisterController extends Controller
             'username' => $data['username'],
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => $data['password'] // User model already hashes password
+            'password' => $data['password'] // User.php already hashes password
         ]);
     }
 }
