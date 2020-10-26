@@ -16,7 +16,9 @@ edits in .env file:
 set database connection values
 
 DB_DATABASE=tweety_db
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 added values
